@@ -47,5 +47,4 @@ public class ProductController {
         productService.save(new Product(id, title, cost));
         return "redirect:all";
     }
-
 }
